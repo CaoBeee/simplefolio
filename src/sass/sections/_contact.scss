@@ -25,6 +25,7 @@
 
     &__text {
       margin-bottom: 2.5rem;
+      text-align: left;
     }
 
     &__text,
@@ -33,6 +34,7 @@
 
       @include respond(phone) {
         font-size: 2rem;
+        text-align: left;
       }
     }
   }
